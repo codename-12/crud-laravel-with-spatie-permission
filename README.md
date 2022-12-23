@@ -1,3 +1,25 @@
+## About This project 
+
+ This Code will give you simple example of laravel 9 spatie user roles and permissions tutorial. you can understand a concept of laravel 9 spatie/laravel-permission, Spatie role permission composer package provides a way to create ACL in laravel 9. they provide how to assign role to user, how to assign permission to user and how to assign permission assign to roles. follow this step to run this code:
+
+- clone this repo in your local machine
+- run command in your terminal : composer update 
+- run command in your terminal : npm update then follow next step from npm 
+- run command in your terminal : cp .env.example .env 
+- check database on .env file change name database, username, password
+- run : php artisan migrate 
+- run command for role user : php artisan db:seed --class=PermissionTableSeeder
+- create account use this command :php artisan make:seeder CreateAdminUserSeeder
+- after all no erorrs run : php artisan serve
+- access on browseer : http://localhost:8000/login
+- acccount 
+Email: admin@gmail.com
+
+Password: 123456
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
