@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bbd0e299f7dc9b643fd678a7527a3c95",
+    "content-hash": "ff2fa9931e9f56f6adbe5f29290ea473",
     "packages": [
         {
             "name": "brick/math",
@@ -1278,32 +1278,32 @@
         },
         {
             "name": "laravel/ui",
-            "version": "v3.4.6",
+            "version": "v4.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/ui.git",
-                "reference": "65ec5c03f7fee2c8ecae785795b829a15be48c2c"
+                "reference": "810adddcf4e2538b0d1ed470c3a5220ffe761370"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/ui/zipball/65ec5c03f7fee2c8ecae785795b829a15be48c2c",
-                "reference": "65ec5c03f7fee2c8ecae785795b829a15be48c2c",
+                "url": "https://api.github.com/repos/laravel/ui/zipball/810adddcf4e2538b0d1ed470c3a5220ffe761370",
+                "reference": "810adddcf4e2538b0d1ed470c3a5220ffe761370",
                 "shasum": ""
             },
             "require": {
-                "illuminate/console": "^8.42|^9.0",
-                "illuminate/filesystem": "^8.42|^9.0",
-                "illuminate/support": "^8.82|^9.0",
-                "illuminate/validation": "^8.42|^9.0",
-                "php": "^7.3|^8.0"
+                "illuminate/console": "^9.21|^10.0",
+                "illuminate/filesystem": "^9.21|^10.0",
+                "illuminate/support": "^9.21|^10.0",
+                "illuminate/validation": "^9.21|^10.0",
+                "php": "^8.0"
             },
             "require-dev": {
-                "orchestra/testbench": "^6.23|^7.0"
+                "orchestra/testbench": "^7.0|^8.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "4.x-dev"
                 },
                 "laravel": {
                     "providers": [
@@ -1333,9 +1333,9 @@
                 "ui"
             ],
             "support": {
-                "source": "https://github.com/laravel/ui/tree/v3.4.6"
+                "source": "https://github.com/laravel/ui/tree/v4.2.0"
             },
-            "time": "2022-05-20T13:38:08+00:00"
+            "time": "2023-01-10T12:13:29+00:00"
         },
         {
             "name": "laravelcollective/html",
