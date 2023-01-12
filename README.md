@@ -4,7 +4,7 @@
 
 - clone this repo in your local machine
 - run command in your terminal : composer update 
-- run command in your terminal : npm update then follow next step from npm 
+- run command in your terminal : npm run dev then follow next step from npm 
 - run command in your terminal : cp .env.example .env 
 - check database on .env file change name database, username, password
 - run : php artisan migrate 
